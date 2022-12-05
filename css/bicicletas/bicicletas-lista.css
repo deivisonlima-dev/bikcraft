@@ -1,7 +1,6 @@
 .lista-de-bicicletas {
   width: 100%;
   padding: 60px 0px 120px 0px;
-  background-color: var(--cor-4);
 }
 
 .lista-de-bicicletas ul {
