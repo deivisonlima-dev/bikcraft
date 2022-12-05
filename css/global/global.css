@@ -16,6 +16,10 @@ img {
   max-width: 100%;
   display: block;
 }
+img[src$='.jpg'] {
+  border-radius: 4px;
+}
+
 a {
   display: inline-block;
   color: inherit;

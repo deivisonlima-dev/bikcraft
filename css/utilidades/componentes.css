@@ -1,3 +1,9 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
 .botao {
   padding: 16px 32px;
   border-radius: 5px;
@@ -26,10 +32,4 @@
   border-radius: 50%;
   background-color: var(--cor-p1);
   margin-left: 2px;
-}
-.retangulo {
-  display: inline-block;
-  width: 8px;
-  height: 5px;
-  background-color: var(--cor-p1);
 }
