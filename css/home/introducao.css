@@ -1,6 +1,7 @@
 .introducao-bg {
   background-color: var(--cor-12);
   box-shadow: inset 0px -120px var(--cor-0);
+  margin-bottom: 3rem;
 }
 
 .introducao-conteudo {
@@ -23,14 +24,6 @@
   position: relative;
 }
 
-.introducao h1 span {
-  display: inline-block;
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
-  background-color: var(--cor-p1);
-  margin-left: 3px;
-}
 .introducao p {
   color: var(--cor-5);
   margin-bottom: 20px;

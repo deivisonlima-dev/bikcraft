@@ -17,3 +17,19 @@
 .botao:hover {
   background: linear-gradient(#ffb60d, #e59317);
 }
+
+/* circulo decorativo */
+.circulo {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: var(--cor-p1);
+  margin-left: 2px;
+}
+.retangulo {
+  display: inline-block;
+  width: 8px;
+  height: 5px;
+  background-color: var(--cor-p1);
+}
