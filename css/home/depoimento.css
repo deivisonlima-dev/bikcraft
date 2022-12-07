@@ -1,0 +1,34 @@
+.depoimento {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.depoimento-texto {
+    display: flex;
+    align-items: flex-end;
+    background-color: var(--cor-p1);
+    padding-bottom: 100px;
+    padding-left: 50px;
+}
+.depoimento-texto p {
+    word-break: break-all;
+    max-width: 23ch;
+    margin-bottom: 20px;
+    position: relative;
+}
+.aspas {
+    display: block;
+    font-size: 3rem;
+    color: var(--cor-7);
+    position: absolute;
+    left: -30px;
+    top: -15px;
+}
+.aspas-1 {
+    display: inline-block;
+    font-size: 3rem;
+    color: var(--cor-7);
+    position: absolute;
+    right: -15px;
+    bottom: -30px;
+}
