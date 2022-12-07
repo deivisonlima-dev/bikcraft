@@ -54,7 +54,7 @@
 
 @media (max-width: 600px) {
   #depoimento-texto {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
   }
 
   .depoimento p::before {
@@ -64,5 +64,8 @@
   }
   .depoimento p::after {
     font-size: 3rem;
+  }
+  .depoimento img{
+    max-height: 300px;
   }
 }
