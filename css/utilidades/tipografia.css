@@ -3,21 +3,6 @@
     --font-secondary: "Roboto", sans-serif;
     --font-secondary-2: 'Merriweather', serif;
 }
-/* 
-Ordem da abreviação shorthand
-font-weight: ;
-font-size: ;/
-line-height: ;
-font-family: ;
-
-calcúlo px para rem:
-valor em px / 16
-ex: 32px = 32/16 = 2rem
-
-calcúlo line-height: 
-valor de line-height / font-size
-ex: 30px / 18px =  line-height 1.25;
-*/
 
 .font-1-xs {
   font: 600 0.75rem/1.35 var(--font-primary);
@@ -34,6 +19,9 @@ ex: 30px / 18px =  line-height 1.25;
 }
 .font-2-m {
   font: 500 1.125rem/1.5 var(--font-secondary);
+}
+.font-1-m {
+  font: 500 1.125rem/1.5 var(--font-primary);
 }
 .font-1-m-b {
   font: 600 1.125rem/1.5 var(--font-primary);
