@@ -1,0 +1,31 @@
+.bicicletas-bg {
+    background-color: var(--cor-11);
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.bicicletas-loja{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    gap: 40px;
+}
+.bicicletas-descricao {
+    background-color: var(--cor-1);
+}
+.bicicletas-descricao h3,
+.bicicletas-descricao p {
+    margin-bottom: 20px;
+}
+.bicicletas-descricao p {
+    max-width: 45ch;
+}
+
+.bicicletas-sobre {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.bicicletas-sobre a {
+    align-self: flex-end;
+}
