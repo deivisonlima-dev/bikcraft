@@ -1,0 +1,40 @@
+.titulo-bg {
+    background-color: var(--cor-11);
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.titulo p {
+    margin-bottom: 4px;
+}
+
+.termos {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.termos h2 {
+    margin-bottom: 20px;
+}
+.termos p {
+    margin-bottom: 48px;
+    
+}
+.termos p {
+    margin-bottom: 20px;
+    max-width: 75ch;
+}
+
+@media (max-width:  800px) {
+    .titulo-bg {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .titulo p {
+        font-size: 1rem;
+        text-transform: lowercase;
+        font-weight: 400;
+    }
+    .termos{
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+}
