@@ -1,5 +1,9 @@
 .bicicletas-bg:nth-child(odd) {
-  background-color: var(--cor-11);
+  background-image: linear-gradient(
+    to right,
+    var(--cor-0) 30%,
+    var(--cor-11) 0%
+  );
 }
 .bicicleta-imagem img {
   object-fit: cover;
@@ -80,33 +84,32 @@
   }
 
   .bicicletas-bg:nth-child(odd) {
-    background-color: var(--cor-0);
+    background: var(--cor-11);
   }
-  .bicicletas-bg:nth-child(odd) h2 {
-    color: var(--cor-12);
-  }
-  .bicicletas-bg:nth-child(odd) p,
-  .bicicletas-bg:nth-child(odd) ul {
-    color: var(--cor-8);
-  }
+
   .bicicletas {
     grid-template-columns: 1fr;
     padding-top: 40px;
     padding-bottom: 40px;
+    gap: 20px;
   }
 }
 
-@media(max-width: 600px) {
-  .bicicletas-conteudo ul {
+@media (max-width: 600px) {
+  .bicicletas-conteudo {
+    grid-template-columns: 1fr;
+  }
+  .bicicletas ul {
+    font-size: 3.7vw;
+    margin-bottom: 32px;
     grid-template-columns: 1fr 1fr;
   }
-  .bicicletas-conteudo li {
-    font-size: 1rem;
-  }
   .bicicletas-conteudo a {
-    grid-row: 4;
     place-self: start;
-    margin-top: 30px;
+  }
+
+  .bicicleta-imagem span {
+    font-size: 3.7vw;
+    padding: 8px;
   }
 }
-
