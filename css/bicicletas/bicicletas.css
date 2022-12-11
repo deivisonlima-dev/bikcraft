@@ -1,31 +1,112 @@
-.bicicletas-bg {
-    background-color: var(--cor-11);
-    padding-top: 60px;
-    padding-bottom: 60px;
+.bicicletas-bg:nth-child(odd) {
+  background-color: var(--cor-11);
+}
+.bicicleta-imagem img {
+  object-fit: cover;
+  object-position: right;
+  height: 100%;
+  width: 100%;
+}
+.bicicletas {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.bicicleta-imagem {
+  position: relative;
+  display: grid;
+}
+.bicicleta-imagem img {
+  grid-area: 1/1;
+}
+.bicicleta-imagem span {
+  grid-area: 1/1;
+  place-self: start end;
+  display: inline-block;
+  margin-top: 20px;
+  background-color: var(--cor-12);
+  padding: 8px 16px 8px 8px;
+  border-radius: 4px 0px 0px 4px;
+}
+.bicicletas-conteudo {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-content: flex-start;
+}
+.bicicletas h2,
+.bicicletas p {
+  grid-column: 1/-1;
+}
+.bicicletas h2 {
+  margin-bottom: 20px;
 }
 
-.bicicletas-loja{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding-top: 80px;
-    padding-bottom: 80px;
-    gap: 40px;
+.bicicletas h2::before {
+  content: "";
+  display: block;
+  width: 12px;
+  height: 8px;
+  background-color: var(--cor-p1);
+  margin-bottom: 8px;
 }
-.bicicletas-descricao {
-    background-color: var(--cor-1);
+.bicicletas p {
+  max-width: 50ch;
+  margin-bottom: 32px;
 }
-.bicicletas-descricao h3,
-.bicicletas-descricao p {
-    margin-bottom: 20px;
-}
-.bicicletas-descricao p {
-    max-width: 45ch;
+.bicicletas li {
+  display: flex;
+  align-items: center;
 }
 
-.bicicletas-sobre {
-    display: grid;
+.bicicletas-conteudo img {
+  width: 24px;
+  margin-right: 8px;
+}
+.bicicletas-conteudo ul {
+  display: grid;
+  gap: 16px;
+}
+
+.bicicletas a {
+  place-self: flex-end;
+}
+/* Media */
+@media (max-width: 800px) {
+  .titulo-bg p {
+    font-size: 1.125rem;
+    text-transform: lowercase;
+  }
+
+  .bicicletas-bg:nth-child(odd) {
+    background-color: var(--cor-0);
+  }
+  .bicicletas-bg:nth-child(odd) h2 {
+    color: var(--cor-12);
+  }
+  .bicicletas-bg:nth-child(odd) p,
+  .bicicletas-bg:nth-child(odd) ul {
+    color: var(--cor-8);
+  }
+  .bicicletas {
+    grid-template-columns: 1fr;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+}
+
+@media(max-width: 600px) {
+  .bicicletas-conteudo ul {
     grid-template-columns: 1fr 1fr;
+  }
+  .bicicletas-conteudo li {
+    font-size: 1rem;
+  }
+  .bicicletas-conteudo a {
+    grid-row: 4;
+    place-self: start;
+    margin-top: 30px;
+  }
 }
-.bicicletas-sobre a {
-    align-self: flex-end;
-}
+
