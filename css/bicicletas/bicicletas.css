@@ -34,6 +34,7 @@
   padding: 8px 16px 8px 8px;
   border-radius: 4px 0px 0px 4px;
 }
+
 .bicicletas-conteudo {
   display: grid;
   grid-template-columns: 1fr auto;
@@ -73,8 +74,8 @@
   gap: 16px;
 }
 
-.bicicletas a {
-  place-self: flex-end;
+.bicicletas-conteudo a {
+  place-self: end;
 }
 /* Media */
 @media (max-width: 800px) {
@@ -100,6 +101,7 @@
     grid-template-columns: 1fr;
   }
   .bicicletas ul {
+    grid-column: 1/-1;
     font-size: 3.7vw;
     margin-bottom: 32px;
     grid-template-columns: 1fr 1fr;

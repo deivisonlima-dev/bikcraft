@@ -7,9 +7,13 @@
 
 /* Componentes */
 @import "./utilidades/componentes.css";
+
 /* Bicicletas */
 @import "./bicicletas/bicicletas-lista.css";
 @import "./bicicletas/bicicletas.css";
+
+/* Bicicleta */
+@import "./bicicleta/bicicleta.css";
 
 /* Home */
 @import "./home/introducao.css";
