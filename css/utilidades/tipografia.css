@@ -11,6 +11,9 @@
 .font-1-s {
   font: 400 1rem/1.5 var(--font-primary);
 }
+.font-1-s-b {
+  font: 500 1rem/1.5 var(--font-primary);
+}
 .font-1-m {
   font: 500 1.125rem/1.5 var(--font-primary);
 }
