@@ -2,7 +2,7 @@
   background: linear-gradient(var(--cor-11) 700px, var(--cor-1) 0%);
 }
 #contato .container {
-  padding-top: 0px;
+  /* padding-top: 0px; */
 }
 .contato {
   display: grid;
