@@ -7,8 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="As melhores e mais modernas Bicicletas da Bikcraft.">
     <title>Bicicletas | Bikcraft</title>
+        <link rel="icon" href="./favicon.svg" type="image/svg+xml">
     <link rel="preload" href="./css/style.css" as="style">
     <link rel="stylesheet" href="./css/style.css">
+    <script>document.documentElement.classList.add('js');</script>
 </head>
 
 <body id="bicicletas">
@@ -37,7 +39,7 @@
         </div>
 
         <div class="bicicletas-bg">
-            <div class="bicicletas container">
+            <div class="bicicletas container fadeInLeft" data-anime="200">
                 <div class="bicicleta-imagem">
                     <img src="./img/bicicletas/nimbus.jpg" width="1120" height="680" alt="Bicicleta preta">
                     <span class="font-2-m cor-0">R$ 4999</span>
@@ -72,7 +74,7 @@
             </div>
         </div>
 
-        <div class="bicicletas-bg">
+        <div class="bicicletas-bg fadeInRight" data-anime="400">
             <div class="bicicletas container">
                 <div class="bicicleta-imagem">
                     <img src="./img/bicicletas/magic.jpg"  width="1120" height="680" alt="Bicicleta preta">
@@ -109,7 +111,7 @@
             </div>
         </div>
 
-        <div class="bicicletas-bg">
+        <div class="bicicletas-bg fadeInLeft" data-anime="600">
             <div class="bicicletas container">
                 <div class="bicicleta-imagem">
                     <img src="./img/bicicletas/nebula.jpg"  width="1120" height="680" alt="Bicicleta preta">
@@ -188,6 +190,7 @@
             <p class="footer-copy font-2-m cor-6">Bikcraft &copy; Alguns direitos reservados.</p>
         </div>
     </footer>
+    <script src="./js/plugins/simple-anime.js"></script>
     <script src="./js/script.js"></script>
 </body>
 
