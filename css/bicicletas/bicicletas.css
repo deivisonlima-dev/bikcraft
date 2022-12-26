@@ -1,3 +1,6 @@
+#m1 {
+  text-transform: uppercase;
+}
 .bicicletas-bg:nth-child(odd) {
   background-image: linear-gradient(
     to right,
